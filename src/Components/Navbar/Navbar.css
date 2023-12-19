@@ -17,7 +17,7 @@
     height: 4px;
     width: 35px;
     margin-bottom: 8px;
-    transition: all .5s ease-in-out;
+    transition: all .5s linear;
     transform-origin: right;
 }
 .middle {
@@ -25,18 +25,18 @@
     height: 4px;
     width: 35px;
     margin-bottom: 8px;
-    transition: all .5s ease-in-out;
+    transition: all .5s linear;
 }
 .end {
     background-color: tomato;
     height: 4px;
     width: 35px;
-    transition: all .5s ease-in-out;
+    transition: all .5s linear;
     transform-origin: right;
 }
 
 .ul {
-    transition: all .3s linear;
+    transition: all .5s linear;
 }
 
 @media screen and (max-width: 1279px) {
