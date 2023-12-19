@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", "Poppins", sans-serif;
+}
+
+.divide {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+    width: 100%;
+}
+
+.start {
+    background-color: tomato;
+    height: 4px;
+    width: 35px;
+    margin-bottom: 8px;
+    transition: all .5s ease-in-out;
+    transform-origin: right;
+}
+.middle {
+    background-color: tomato;
+    height: 4px;
+    width: 35px;
+    margin-bottom: 8px;
+    transition: all .5s ease-in-out;
+}
+.end {
+    background-color: tomato;
+    height: 4px;
+    width: 35px;
+    transition: all .5s ease-in-out;
+    transform-origin: right;
+}
+
+.ul {
+    transition: all .3s linear;
+}
+
+@media screen and (max-width: 1279px) {
+    .divide {
+        grid-template-columns: 5fr;
+    }
+}
