@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
     return (
-        <div className='bg-teal-600 p-5 py-14 flex flex-col justify-center'>
+        <div className='bg-teal-600 p-5 py-14 md:py-18 flex flex-col justify-center'>
             <div className='flex justify-center'>
                 <div>
                     <h2 className="mb-5 text-4xl font-bold text-white">Оставить заявку</h2>
