@@ -16,7 +16,7 @@ const Footer = () => {
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
           <li className='mb-6 lg:mb-0 items-center'>
             <p className="text-2xl font-bold text-teal-800 mb-2">Адрес:</p>
-            <p className="text-xl font-[500]">г.Ташкент Мирабадский Район, Ул.Амира Темура, 13</p>
+            <p className="text-xl font-[500]">г.Андижан, улица Бобуршох, 56</p>
           </li>
           <li className='mb-6 lg:mb-0 items-center'>
             <p className="text-2xl font-bold text-teal-800 mb-2">Рабочее время:</p>
@@ -28,7 +28,7 @@ const Footer = () => {
           </li>
           <li className='items-center'>
             <p className="text-2xl font-bold text-teal-800 mb-2">Контакты:</p>
-            <a href="tel:+998970001008" className="text-xl font-[500]">+998 97 000 10 08</a>
+            <a href="tel:+998999091117" className="text-xl font-[500]">+998 99 909 11 17</a>
           </li>
         </ul>
       </div>

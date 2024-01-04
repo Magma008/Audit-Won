@@ -20,10 +20,8 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <img src={img} className='w-[7rem] md:w-[10rem]' alt="logo" />
                         <div>
-                            <a href="#content" className='text-[18px] md:text-[24px] text-white font-[700]'>
-                                <h1>Аудиторская организация <br />
-                                    ООО «AUDIT WON»
-                                </h1>
+                            <a href="#content" className='md:text-[24px] text-white font-[700]'>
+                                <h1 className='text-[14px] sm:text-[20px]'>Аудиторская организация <br /> ООО «INTERNATIONAL AUDIT CONSULTING»</h1>
                             </a>
                         </div>
                     </div>
@@ -34,21 +32,21 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <ul className={`flex flex-col px-5  md:px-10 bg-teal-500 ul transition-all delay-300 xl:flex-row ${isOpen ? "h-[20rem]" : "h-[0px]"} xl:h-auto w-full overflow-hidden gap-6 justify-between text-white font-[600]`}>
+                <ul className={`flex flex-col px-5  md:px-10 bg-teal-500 ul transition-all delay-300 xl:flex-row ${isOpen ? "h-[20rem]" : "h-[0px]"} xl:h-auto w-full overflow-hidden gap-2 md:gap-6  justify-between text-white font-[600]`}>
                     <li>
-                        <a className='flex justify-start items-center gap-2 text-[25px]' href="#content"><img src={about} className='w-[30px]' alt="image" />О нас</a>
+                        <a className='flex justify-start items-center gap-2 text-[20px] md:text-[25px]' href="#content"><img src={about} className='w-[30px]' alt="image" />О нас</a>
                     </li>
                     <li>
-                        <a className='flex justify-start items-center gap-2 text-[25px]' href="#swiper"><img src={service} className='w-[30px]' alt="image" />Услуги</a>
+                        <a className='flex justify-start items-center gap-2 text-[20px] md:text-[25px]' href="#swiper"><img src={service} className='w-[30px]' alt="image" />Услуги</a>
                     </li>
                     <li>
-                        <a className='flex justify-start items-center gap-2 text-[25px]' href="#footer"><img src={contact} className='w-[30px]' alt="image" />Контакты</a>
+                        <a className='flex justify-start items-center gap-2 text-[20px] md:text-[25px]' href="#footer"><img src={contact} className='w-[30px]' alt="image" />Контакты</a>
                     </li>
                     <li>
-                        <a className='flex justify-start items-center gap-2 text-[25px]' href="#"><img src={uzb} className='w-[30px]' alt="image" />Uzb</a>
+                        <a className='flex justify-start items-center gap-2 text-[20px] md:text-[25px]' href="#"><img src={uzb} className='w-[30px]' alt="image" />Uzb</a>
                     </li>
                     <li className='pb-2'>
-                        <a className='flex justify-start items-center gap-2 text-[25px]' href="#"><img src={eng} className='w-[30px]' alt="image" />Eng</a>
+                        <a className='flex justify-start items-center gap-2 text-[20px] md:text-[25px]' href="#"><img src={eng} className='w-[30px]' alt="image" />Eng</a>
                     </li>
                 </ul>
             </div>
