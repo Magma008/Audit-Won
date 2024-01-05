@@ -24,7 +24,7 @@ const Footer = () => {
           </li>
           <li className='mb-6 md:mb-0 items-center'>
             <p className="text-2xl font-bold text-teal-800 mb-2">Email</p>
-            <a href="mailto:haydarov.lochinbek@yandex.ru" className="text-xl font-[500]">haydarov.lochinbek@yandex.ru</a>
+            <a href="mailto:haydarov.lochinbek@yandex.ru" className="text-xl font-[500] break-words">haydarov.lochinbek@yandex.ru</a>
           </li>
           <li className='items-center'>
             <p className="text-2xl font-bold text-teal-800 mb-2">Контакты:</p>
